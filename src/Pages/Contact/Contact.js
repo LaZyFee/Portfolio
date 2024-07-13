@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Contact = () => {
     return (
-        <div className='text-white bg-[#19376D]' id='contact'>
+        <div className='text-white bg-gradient-to-t from-[#21124a]' id='contact'>
 
             <div className='lg:flex lg:gap-10 items-center justify-center mt-10 p-8'>
                 <div className='lg:w-1/2 '>

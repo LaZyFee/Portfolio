@@ -12,7 +12,7 @@ const Navbar = () => {
 
 
     return (
-        <div className="navbar text-white mt-5">
+        <div className="navbar text-white">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -30,7 +30,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end md:gap-10">
-                <a href="resume.pdf" download className="btn btn-outline btn-info">
+                <a href="Asset/Rabiul Rafee resume.pdf" download className="btn btn-outline btn-info">
                     Resume
                 </a>
 
