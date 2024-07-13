@@ -24,8 +24,8 @@ const Hero = () => {
                     initial={{ x: 100, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1 }}
-                    src="Asset/myImage.png"
-                    className="lg:max-w-sm rounded-full"
+                    src="Asset/myImage.jpg"
+                    className="lg:max-w-sm rounded-xl"
                     alt='myImage'
                 />
 
@@ -37,7 +37,7 @@ const Hero = () => {
                         animate="visible"
                     >
                         Hello, I'm
-                        <span className='text-red-700'> Rabiul Rafee</span>
+                        <span className='text-red-700'> Rabiul Hasan Rafee</span>
                     </motion.h1>
 
                     <motion.p

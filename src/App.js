@@ -9,7 +9,7 @@ import Tech from './Pages/Technologies/Tech';
 
 function App() {
   return (
-    <div className="bg-custom-radial">
+    <div className="lg:bg-custom-radial">
       <Navbar />
       <Hero />
       <About />

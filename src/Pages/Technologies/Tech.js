@@ -1,5 +1,5 @@
 import React from 'react';
-import skills from '../../Data/skill.json';
+import { skills } from '../../Data/skill';
 import { motion } from 'framer-motion';
 
 const waveAnimation = (duration, delay = 0) => ({
@@ -31,7 +31,7 @@ const Tech = () => {
                             initial="initial"
                             animate="animate"
                         >
-                            <img src={skill.image} alt="skills" className='bg-[#19376D] rounded-full p-2' />
+                            <span className='text-5xl p-3 bg-gradient-to-r from-[#321484] to-[#19376D] text-cyan-100'>{skill.icon}</span>
                             <div>
                                 <h3 className='text-xl'>{skill.name}</h3>
                                 <p className='py-2'>{skill.description}</p>
