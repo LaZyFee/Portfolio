@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Auth_using_PassportJS",
+    "description": "This is a trial project for implementing user authentication in a Node.js application. The project uses PassportJS for authentication with both Local Strategy and Google OAuth 2.0 and is built with Node.js, Express, MongoDB, EJS, and bcrypt for secure password hashing.",
+    "image": "",
+    "source": "https://github.com/LaZyFee/Auth_using_PassportJS",
+    "live": "",
+    "library": ["NodeJS", "Express", "MongoDB", "EJS", "PassportJS"]
+  },
+  {
+    "id": 2,
+    "name": "Chat-Application",
+    "description": "A Full Stack Chat Application project with Node Express.js MongoDB & EJS Template Engine.",
+    "image": "../Asset/Projects/lwsChatApp.png",
+    "source": "https://github.com/LaZyFee/Chat-Application-lws",
+    "live": "",
+    "library": ["NodeJS", "Express", "MongoDB", "EJS"]
+  },
+  {
+    "id": 3,
+    "name": "fileUploader_using_expressJS",
+    "description": "A File Uploader project with Node Express.js and multer. It allows users to upload files to a server using Express.js and Multer middleware.",
+    "image": "",
+    "source": "https://github.com/LaZyFee/fileUploader_using_expressJS",
+    "live": "",
+    "library": ["NodeJS", "Express", "Multer"]
+  },
+  {
+    "id": 4,
+    "name": "Basic-NodeJs-Server",
+    "description": "A Basic Node.js Server project with Node.js. It provides a simple server for testing purposes. it's the basic of Node.js which define how Node.js works.",
+    "image": "",
+    "source": "https://github.com/LaZyFee/Basic-NodeJs-Server",
+    "live": "",
+    "library": ["NodeJS"]
+  }
+]

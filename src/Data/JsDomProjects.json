@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "name": "Fancy-Slider",
+    "description": "This tool allows users to search for and fetch recommended pictures via a search input. Users can select multiple images, set a timer for automatic slides, and also manually navigate through them with buttons for an interactive experience.",
+    "image": "../Asset/Projects/slider.png",
+    "source": "https://github.com/LaZyFee/Fancy-Slider-JS-DOM",
+    "live": "https://create-manual-slider.netlify.app/",
+    "library": ["HTML5", "Bootstrap", "JS", "ES6", "API fetching"]
+  },
+  {
+    "id": 2,
+    "name": "Temperature Meter",
+    "description": "This project fetches real-time weather data, allowing users to search by city and see the current temperature displayed dynamically. A simple yet effective way to check the weather in any location!",
+    "image": "",
+    "source": "https://github.com/LaZyFee/Temperature-JS-DOM",
+    "live": "https://temparature-meter.netlify.app/",
+    "library": ["HTML5", "Bootstrap", "JS", "ES6", "API fetching"]
+  },
+  {
+    "id": 3,
+    "name": "Phone Hunter",
+    "description": "This platform allows users to easily find gadgets using a search input. Each phone comes with a detailed modal that provides additional information, helping users make informed decisions while shopping.",
+    "image": "../Asset/Projects/Phone-hunter.jpeg",
+    "source": "https://github.com/LaZyFee/Phone-Hunter",
+    "live": "https://phone-hunter-ecommerce.netlify.app/",
+    "library": ["HTML5", "Bootstrap", "JS", "ES6", "API fetching"]
+  },
+  {
+    "id": 4,
+    "name": "News Portal",
+    "description": "This project displays news headlines along with static ratings, author info, and viewer count. I also added buttons for different news categories, and by clicking them, users can fetch relevant news based on the selected category.",
+    "image": "",
+    "source": "",
+    "live": "https://lazysrestu.netlify.app/",
+    "library": ["HTML5", "Bootstrap", "JS", "ES6", "API fetching"]
+  },
+  {
+    "id": 5,
+    "name": "Lazy's Restu",
+    "description": "This project allows users to search for meals using a search input. It fetches data from an API and displays various meal options based on the user's query. It's perfect for exploring new recipes or finding dinner ideas!",
+    "image": "",
+    "source": "https://github.com/LaZyFee/Meals-Resturant-JS-DOM",
+    "live": "https://lazysrestu.netlify.app/",
+    "library": ["HTML5", "Bootstrap", "JS", "ES6", "API fetching"]
+  },
+  {
+    "id": 6,
+    "name": " lazy's bar",
+    "description": "The bar items search project lets users search for their favorite drinks or bar items. The search fetches relevant items from an API and presents them in a clean and responsive layout.",
+    "image": "",
+    "source": "https://github.com/LaZyFee/Lazy-s-Bar",
+    "live": "https://lazysbar.netlify.app/",
+    "library": ["HTML5", "Bootstrap", "JS", "ES6", "API fetching"]
+  },
+  {
+    "id": 7,
+    "name": "Pin Matcher",
+    "description": "This is a PIN Matcher using HTML, CSS, and DOM manipulation. It's a small but handy feature that helps generate and verify secure 4-digit PINs.",
+    "image": "",
+    "source": "https://github.com/LaZyFee/Pin-Matcher",
+    "live": "https://random-pin-matcher-demo.netlify.app/",
+    "library": ["HTML5", "Bootstrap", "JS", "ES6"]
+  },
+  {
+    "id": 8,
+    "name": "Money Expense Tracker",
+    "description": "This tool helps users track daily expenses. Built with JS to dynamically update expenses and present a simple UI for ease of use.",
+    "image": "",
+    "source": "https://github.com/LaZyFee/Money-Master",
+    "live": "https://moneyexpense-tracker.netlify.app/",
+    "library": ["HTML5", "Bootstrap", "JS", "ES6"]
+  },
+  {
+    "id": 9,
+    "name": " Basic Shopping Cart",
+    "description": "An enhanced shopping cart with checkout functionalities.",
+    "image": "",
+    "source": "https://github.com/LaZyFee/shopping-cart-main",
+    "live": "https://checkout-cart-demo.netlify.app/",
+    "library": ["HTML5", "Bootstrap", "JS", "ES6"]
+  },
+  {
+    "id": 10,
+    "name": "Best Five Selection",
+    "description": "Select and rank your top five choices with ease.",
+    "image": "",
+    "source": "https://github.com/LaZyFee/Best-Five-JS-DOM",
+    "live": "https://best-five-selection.netlify.app/",
+    "library": ["HTML5", "Bootstrap", "JS", "ES6"]
+  },
+  {
+    "id": 11,
+    "name": "Calculator",
+    "description": "A basic arithmetic calculator built using vanilla JavaScript.",
+    "image": "",
+    "source": "https://github.com/LaZyFee/calculator",
+    "live": "https://basic-arithmetic-cal.netlify.app/",
+    "library": ["HTML5", "Bootstrap", "JS", "ES6"]
+  },
+  {
+    "id": 12,
+    "name": "Bank Demo",
+    "description": "🔐Login & Logout💰Deposit & Withdraw ⚙️Smooth User Interaction & Clean UI",
+    "image": "",
+    "source": "https://github.com/LaZyFee/Bank_Tailwind_CSS",
+    "live": "https://no-name-bank.netlify.app/",
+    "library": ["HTML5", "Tailwind", "JS", "ES6"]
+  },
+  {
+    "id": 13,
+    "name": "Travel Agency",
+    "description": "🚀Travel Agency Landing Page🌏",
+    "image": "",
+    "source": "https://github.com/LaZyFee/Tailwind_Travel_Agency",
+    "live": "https://traveller-deals.netlify.app/",
+    "library": ["HTML5", "Tailwind"]
+  },
+  {
+    "id": 14,
+    "name": "Nike store",
+    "description": "👟Nike Fashion Store👟",
+    "image": "",
+    "source": "https://github.com/LaZyFee/Tailwind_Nike_Store",
+    "live": "https://penguin-fashion-nike-store.netlify.app/",
+    "library": ["HTML5", "Tailwind"]
+  },
+  {
+    "id": 15,
+    "name": "Penguin store",
+    "description": "🌏Penguin Fashion Store🌏",
+    "image": "",
+    "source": "https://github.com/LaZyFee/Tailwind_penguin",
+    "live": "https://penguin-fashion-og.netlify.app/",
+    "library": ["HTML5", "Tailwind"]
+  },
+  {
+    "id": 16,
+    "name": "convention_center",
+    "description": "🏢Convention Center🏢",
+    "image": "",
+    "source": "https://github.com/LaZyFee/bootstrap_convention_center",
+    "live": "https://lazyfee.github.io/bootstrap_convention_center/",
+    "library": ["HTML5", "Bootstrap"]
+  },
+  {
+    "id": 17,
+    "name": "Pro_Edu:",
+    "description": "🎓Pro Edu🎓",
+    "image": "",
+    "source": "https://github.com/LaZyFee/Bootstrap_Pro_Edu",
+    "live": "https://lazyfee.github.io/Bootstrap_Pro_Edu/",
+    "library": ["HTML5", "Bootstrap"]
+  },
+  {
+    "id": 18,
+    "name": "panda_commerce",
+    "description": "🐼Panda Commerce🐼",
+    "image": "",
+    "source": "https://github.com/LaZyFee/bootstrap_panda_commerce",
+    "live": "https://lazyfee.github.io/Panda_Commerce/",
+    "library": ["HTML5", "Bootstrap"]
+  }
+]

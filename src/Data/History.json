@@ -1,11 +1,11 @@
 [
-    {
-        "id": 1,
-        "role": "Instructor",
-        "Organization": "CodeSegment",
-        "StartDate": "November,2023",
-        "EndDate": "present",
-        "experiences": [],
-        "image": "Asset/History/CodeSegment.jpg"
-    }
+  {
+    "id": 1,
+    "role": "JS Instructor",
+    "Organization": " CodeSegment",
+    "StartDate": "November,2023",
+    "EndDate": "March,2024",
+    "experiences": [],
+    "image": "Asset/History/CodeSegment.jpg"
+  }
 ]

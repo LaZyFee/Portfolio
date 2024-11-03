@@ -1,18 +1,30 @@
-import React, { Fragment } from 'react';
-
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 const Navbar = () => {
 
-    const menuItems = <Fragment>
-        <a href='#about'>About</a>
-        <a href='#experience'>Exprience</a>
-        <a href='#project'>Projects</a>
-        <a href='#contact'>Contact </a>
+    const menuItems = [
+        { name: "Home", path: "/" },
+        { name: "Projects", path: "/projects" }
 
-    </Fragment>
+    ].map((item) => (
+        <NavLink
+            key={item.name}
+            to={item.path}
+            className={({ isActive }) =>
+                isActive
+                    ? "text-rose-500 font-extrabold border-b-4 border-b-red-500"
+                    : "hover:border-b-4 hover:border-b-gray-500 transition duration-300"
+            }
+        >
+            {item.name}
+        </NavLink>
+    ));
+
+
 
 
     return (
-        <div className="navbar text-white">
+        <div className="navbar text-white shadow-2xl">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -22,17 +34,19 @@ const Navbar = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <a href='/' className="btn btn-ghost text-xl normal-case">Rabiul</a>
+                <a href='/' className="btn btn-ghost text-xl normal-case">Rabiul <span className='hidden lg:block'>Rafee</span></a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0 gap-4 text-xl font-medium">
                     {menuItems}
                 </ul>
             </div>
-            <div className="navbar-end">
-                <a href="Asset/Rabiul Rafee resume.pdf" download className="btn btn-outline btn-info">
-                    Hire Me
+            <div className="navbar-end flex items-center justify-center">
+                <a href="Asset/Rabiul Rafee resume.pdf" download className="relative inline-block px-6 py-3 font-bold text-white bg-gray-900 border-2 border-transparent rounded-md group">
+                    <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform bg-gradient-to-r from-green-400 to-blue-500 opacity-75 blur group-hover:opacity-100 group-hover:blur-md"></span>
+                    <span className="relative">Hire Me</span>
                 </a>
+
             </div>
         </div>
     );

@@ -1,87 +1,65 @@
-import { FaHtml5, FaBootstrap, FaReact, FaNodeJs, FaFigma, FaGitAlt, FaNpm } from "react-icons/fa";
-import { FaCss3Alt, FaGithub } from "react-icons/fa6";
-import { RiTailwindCssFill, RiNextjsFill } from "react-icons/ri";
+import { FaBootstrap, FaReact, FaNodeJs, FaGitAlt, FaNpm } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
+import { RiTailwindCssFill, } from "react-icons/ri";
 import { IoLogoJavascript, IoLogoFirebase } from "react-icons/io5";
-import { SiExpress, SiGraphql, SiMongodb } from "react-icons/si";
+import { SiExpress, SiMongodb } from "react-icons/si";
 
 export const skills = [
     {
         "id": 1,
-        "name": "HTML",
-        "icon": <FaHtml5 />
-    },
-    {
-        "id": 2,
-        "name": "CSS",
-        "icon": <FaCss3Alt />
-    },
-    {
-        "id": 3,
-        "name": "Bootstrap",
-        "icon": <FaBootstrap />
-    },
-    {
-        "id": 4,
-        "name": "Tailwind",
-        "icon": <RiTailwindCssFill />
-    },
-    {
-        "id": 5,
         "name": "Javascript",
         "icon": <IoLogoJavascript />
     },
     {
-        "id": 6,
+        "id": 2,
         "name": "React",
         "icon": <FaReact />
     },
     {
-        "id": 7,
+        "id": 3,
         "name": "NodeJS",
         "icon": <FaNodeJs />
     },
     {
-        "id": 8,
+        "id": 4,
         "name": "ExpressJS",
         "icon": <SiExpress />
     },
+
     {
-        "id": 9,
-        "name": "GraphQL",
-        "icon": <SiGraphql />
-    },
-    {
-        "id": 10,
+        "id": 5,
         "name": "MongoDB",
         "icon": <SiMongodb />
     },
+
     {
-        "id": 11,
-        "name": "Figma",
-        "icon": <FaFigma />
+        "id": 6,
+        "name": "Bootstrap",
+        "icon": <FaBootstrap />
     },
     {
-        "id": 12,
-        "name": "NextJS",
-        "icon": <RiNextjsFill />
+        "id": 7,
+        "name": "Tailwind",
+        "icon": <RiTailwindCssFill />
     },
+
     {
-        "id": 13,
+        "id": 8,
         "name": "git",
         "icon": <FaGitAlt />
     },
     {
-        "id": 14,
+        "id": 9,
         "name": "github",
         "icon": <FaGithub />
     },
     {
-        "id": 15,
+        "id": 10,
         "name": "npm",
         "icon": <FaNpm />
     },
     {
-        "id": 16,
+        "id": 11,
         "name": "Firebase",
         "icon": <IoLogoFirebase />
     }

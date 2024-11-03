@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Portfolio",
+    "description": "Showcasing a collection of my web development projects, this portfolio highlights my skills in front-end technologies such as React and Tailwind CSS. It features responsive design, intuitive navigation, and interactive elements that demonstrate my ability to create user-friendly applications. Each project includes detailed information about the technologies used and links to live demos and source code. This portfolio not only reflects my journey as a developer but also serves as a testament to my commitment to continuous learning and improvement in web development.",
+    "image": "../Asset/Projects/portfolio.jpg",
+    "source": "",
+    "live": "https://rabiul-rafee-portfolio.netlify.app/",
+    "library": ["React", "Tailwind"]
+  },
+  {
+    "id": 2,
+    "name": "Travello",
+    "description": "Travello is a travel booking application built with React, Tailwind CSS, and DaisyUI. This application allows users to explore available tourist spots, view detailed pricing and facility information, and book plans directly. Key features include smooth navigation, form handling, and instant notifications for booking confirmations, creating an engaging and user-friendly experience.",
+    "image": "../Asset/Projects/travello.jpg",
+    "source": "https://github.com/LaZyFee/Travello",
+    "live": "https://65ec99d09ed3fbc7315c8780--travellodemo.netlify.app/",
+    "library": ["React", "Tailwind"]
+  },
+  {
+    "id": 3,
+    "name": "Lazy's Bar and Restaurant",
+    "description": "it's a dynamic Meal & Drinks Menu App using React, featuring real-time API data integration from TheMealDB and TheCocktailDB. Implemented user authentication with Firebase, including email-password and Google Sign-In options. The app allows users to search meals and drinks by category, view detailed preparation steps through modals, and watch recipe videos embedded from YouTube for an interactive experience. Designed a modern and responsive UI with Tailwind CSS and DaisyUI, ensuring a smooth user experience.",
+    "image": "../Asset/Projects/lazybarandrestu.jpg",
+    "source": "https://github.com/LaZyFee/Lazy-s-Bar",
+    "live": "https://lazybarandrestu.netlify.app/",
+    "library": ["React", "Tailwind", "firebase"]
+  },
+  {
+    "id": 4,
+    "name": "LazyKitchen",
+    "description": "it's a dynamic Meal App using React, featuring real-time API data integration from TheMealDB  The app allows users to search meals by category, view detailed preparation steps through modals. Designed a modern and responsive UI with Tailwind CSS and DaisyUI, ensuring a smooth user experience.",
+    "image": "../Asset/Projects/lazykitchen.jpg",
+    "source": "https://github.com/LaZyFee/LazyKitchen_React",
+    "live": "",
+    "library": ["React", "Tailwind"]
+  }
+]

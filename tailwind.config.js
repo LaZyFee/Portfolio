@@ -7,6 +7,7 @@ module.exports = {
         'custom-radial': 'radial-gradient(100% 100% at 50% 0%, #000 30%, #63e 100%)',
       }
     },
+
   },
   plugins: [
     require('daisyui'),
@@ -14,4 +15,5 @@ module.exports = {
   daisyui: {
     themes: ["synthwave"]
   },
+
 }

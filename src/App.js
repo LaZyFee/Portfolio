@@ -1,22 +1,12 @@
 import React from 'react';
-import Navbar from './Components/Navbar/Navbar';
-import Hero from './Pages/Hero/Hero';
-import About from './Pages/About/About';
-import Experience from './Pages/Experience/Experience';
-import Project from './Pages/Project/Project';
-import Contact from './Pages/Contact/Contact';
-import Tech from './Pages/Technologies/Tech';
+import { RouterProvider } from 'react-router-dom';
+import { router } from './Routes/Router';
+
 
 function App() {
   return (
-    <div className="lg:bg-custom-radial">
-      <Navbar />
-      <Hero />
-      <About />
-      <Tech />
-      <Experience />
-      <Project />
-      <Contact />
+    <div className="lg:bg-custom-radial min-h-screen p-2">
+      <RouterProvider router={router} />
     </div>
   );
 }

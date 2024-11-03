@@ -2,7 +2,7 @@ import React from 'react';
 import histories from '../../Data/History.json';
 const Experience = () => {
     return (
-        <div className='text-white lg:mx-10 mb-10' id='experience'>
+        <div className='text-white lg:mx-5 my-10'>
             <h1 className='text-3xl p-4 lg:mb-5'>EXPERIENCE</h1>
             <div>
                 {
