@@ -34,5 +34,55 @@
     "source": "https://github.com/LaZyFee/LazyKitchen_React",
     "live": "",
     "library": ["React", "Tailwind"]
+  },
+  {
+    "id": "5",
+    "name": "Fanta  Hero",
+    "description": "",
+    "image": "../Asset/Projects/fantastore.jpg",
+    "source": "https://github.com/LaZyFee/Fanta-Hero-React",
+    "live": "https://fantahero.netlify.app",
+    "library": [
+      "React",
+      "Tailwind",
+      "framer-motion",
+      "react-mouse-follower",
+      "react-icons"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "watch Store Hero",
+    "description": "",
+    "image": "../Asset/Projects/watchstore.jpg",
+    "source": "https://github.com/LaZyFee/Watch-Store-React",
+    "live": "https://watchstorehero.netlify.app",
+    "library": [
+      "React",
+      "Tailwind",
+      "Aos",
+      "react-icons",
+      "react-slick",
+      "react-star-ratings",
+      "slick-carousel"
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Strawberry Hero",
+    "description": "It's a begginer demo project of creating a hero section using React & tailwind css",
+    "image": "../Asset/Projects/berries.jpg",
+    "source": "https://github.com/LaZyFee/Strawberry-Hero",
+    "live": "https://berrieshero.netlify.app",
+    "library": ["React", "Tailwind", "Aos"]
+  },
+  {
+    "id": "8",
+    "name": "Nike Hero",
+    "description": "A react hero section using Tailwind CSS",
+    "image": "../Asset/Projects/nikestore.jpg",
+    "source": "https://github.com/LaZyFee/Nike-Hero-React",
+    "live": "https://xnikeherox.netlify.app",
+    "library": ["React", "Tailwind", "framer-motion"]
   }
 ]
