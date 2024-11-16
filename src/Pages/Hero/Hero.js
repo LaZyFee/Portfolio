@@ -64,9 +64,9 @@ const Hero = () => {
                     alt='myImage'
                 />
 
-                <div className='w-2/3 mx-auto'>
+                <div className='lg:w-2/3 mx-auto'>
                     <motion.h1
-                        className="text-xl lg:text-6xl font-bold"
+                        className="text-3xl lg:text-6xl font-bold"
                         variants={container(0)}
                         initial="hidden"
                         animate="visible"
@@ -77,7 +77,7 @@ const Hero = () => {
 
                     {/* Enhanced Paragraph Section */}
                     <motion.p
-                        className="py-6 text-lg"
+                        className="py-6 lg:text-lg"
                         variants={paragraphVariants}
                         initial="hidden"
                         animate="visible"
