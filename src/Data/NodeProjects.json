@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Auth_using_PassportJS",
     "description": "This is a trial project for implementing user authentication in a Node.js application. The project uses PassportJS for authentication with both Local Strategy and Google OAuth 2.0 and is built with Node.js, Express, MongoDB, EJS, and bcrypt for secure password hashing.",
-    "image": "",
+    "image": "../Asset/Projects/PassportJS.png",
     "source": "https://github.com/LaZyFee/Auth_using_PassportJS",
     "live": "",
     "library": ["NodeJS", "Express", "MongoDB", "EJS", "PassportJS"]

@@ -4,6 +4,7 @@ import About from '../About/About';
 import Experience from '../Experience/Experience';
 import Tech from '../Technologies/Tech';
 import Contact from '../Contact/Contact';
+import Projects from '../ProjectsCard/Projects';
 
 const Home = () => {
     return (
@@ -12,7 +13,9 @@ const Home = () => {
             <About />
             <Experience />
             <Tech />
+            <Projects />
             <Contact />
+
         </div>
     );
 };

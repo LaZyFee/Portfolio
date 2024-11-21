@@ -6,7 +6,7 @@
     "image": "../Asset/Projects/portfolio.jpg",
     "source": "",
     "live": "https://rabiul-rafee-portfolio.netlify.app/",
-    "library": ["React", "Tailwind"]
+    "library": ["React", "Tailwind", "swiper"]
   },
   {
     "id": 2,
@@ -35,8 +35,132 @@
     "live": "",
     "library": ["React", "Tailwind"]
   },
+
   {
-    "id": "5",
+    "id": 6,
+    "name": "Space-Web",
+    "description": "",
+    "image": "../Asset/Projects/spacewebxnetlifyapp_.jpg",
+    "source": "https://github.com/LaZyFee/Space-Web-React",
+    "live": "https://spacewebx.netlify.app/",
+    "library": ["React", "Tailwind", "Aos"]
+  },
+  {
+    "id": 7,
+    "name": "Tour-Travel",
+    "description": "",
+    "image": "../Asset/Projects/tour-travelxnetlifyapp_.jpg",
+    "source": "https://github.com/LaZyFee/Tour-Travel-React",
+    "live": "https://tour-travelx.netlify.app/",
+    "library": [
+      "React",
+      "Tailwind",
+      "Aos",
+      "react-icons",
+      "react-slick",
+      "slick-carousel",
+      "react-countup"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Dice-Game",
+    "description": "",
+    "image": "../Asset/Projects/dice-gamexnetlifyapp_.jpg",
+    "source": "https://github.com/LaZyFee/Dice-Game-React",
+    "live": "https://dice-gamex.netlify.app/",
+    "library": ["React", "Tailwind", "styled-components"]
+  },
+  {
+    "id": 9,
+    "name": "Coz-Web",
+    "description": "",
+    "image": "../Asset/Projects/cozwebxnetlifyapp_.jpg",
+    "source": "https://github.com/LaZyFee/CozWeb-React",
+    "live": "https://cozwebx.netlify.app/",
+    "library": [
+      "React",
+      "Tailwind",
+      "Aos",
+      "react-icons",
+      "react-slick",
+      "slick-carousel",
+      "react-countup"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Food-Eat",
+    "description": "",
+    "image": "../Asset/Projects/foodeatxnetlifyapp_.jpg",
+    "source": "https://github.com/LaZyFee/FoodEat-React",
+    "live": "https://foodeatx.netlify.app/",
+    "library": ["React", "Tailwind", "Aos"]
+  },
+  {
+    "id": 11,
+    "name": "Car-Rent",
+    "description": "",
+    "image": "../Asset/Projects/carxrentnetlifyapp_.jpg",
+    "source": "https://github.com/LaZyFee/Car-Rent-React",
+    "live": "https://carxrent.netlify.app/",
+    "library": ["React", "Tailwind", "Aos", "react-icons"]
+  },
+  {
+    "id": 12,
+    "name": "Foodie",
+    "description": "",
+    "image": "../Asset/Projects/foodie-webxnetlifyapp_.jpg",
+    "source": "https://github.com/LaZyFee/Foodie-React",
+    "live": "https://foodie-webx.netlify.app/",
+    "library": [
+      "React",
+      "Tailwind",
+      "Aos",
+      "react-icons",
+      "react-slick",
+      "react-star-ratings",
+      "slick-carousel"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Coffee-Cafe",
+    "description": "",
+    "image": "../Asset/Projects/cooffexcafenetlifyapp_.jpg",
+    "source": "https://github.com/LaZyFee/Coffee-Cafe-React",
+    "live": "https://cooffexcafe.netlify.app/",
+    "library": [
+      "React",
+      "Tailwind",
+      "Aos",
+      "react-icons",
+      "react-slick",
+      "react-star-ratings",
+      "slick-carousel"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "PlusDemic",
+    "description": "",
+    "image": "../Asset/Projects/plusdemicxnetlifyapp_.jpg",
+    "source": "https://github.com/LaZyFee/plusDemic-React",
+    "live": "https://plusdemicx.netlify.app/",
+    "library": ["React", "Tailwind", "framer-motion", "react-icons"]
+  },
+  {
+    "id": 15,
+    "name": "PopUp-Auth",
+    "description": "",
+    "image": "../Asset/Projects/popupauthnetlifyapp_.jpg",
+    "source": "https://github.com/LaZyFee/popupAuth-React",
+    "live": "https://popupauth.netlify.app/",
+    "library": ["React", "Tailwind", "react-icons"]
+  },
+
+  {
+    "id": "16",
     "name": "Fanta  Hero",
     "description": "",
     "image": "../Asset/Projects/fantastore.jpg",
@@ -51,7 +175,7 @@
     ]
   },
   {
-    "id": "6",
+    "id": "17",
     "name": "watch Store Hero",
     "description": "",
     "image": "../Asset/Projects/watchstore.jpg",
@@ -68,7 +192,7 @@
     ]
   },
   {
-    "id": "7",
+    "id": "18",
     "name": "Strawberry Hero",
     "description": "It's a begginer demo project of creating a hero section using React & tailwind css",
     "image": "../Asset/Projects/berries.jpg",
@@ -77,12 +201,21 @@
     "library": ["React", "Tailwind", "Aos"]
   },
   {
-    "id": "8",
+    "id": "19",
     "name": "Nike Hero",
     "description": "A react hero section using Tailwind CSS",
     "image": "../Asset/Projects/nikestore.jpg",
     "source": "https://github.com/LaZyFee/Nike-Hero-React",
     "live": "https://xnikeherox.netlify.app",
     "library": ["React", "Tailwind", "framer-motion"]
+  },
+  {
+    "id": 5,
+    "name": "Quiz-App",
+    "description": "",
+    "image": "",
+    "source": "",
+    "live": "",
+    "library": []
   }
 ]

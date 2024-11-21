@@ -13,7 +13,15 @@ module.exports = {
     require('daisyui'),
   ],
   daisyui: {
-    themes: ["synthwave"]
+    themes: ["synthwave",
+      {
+        mytheme: {
+          primary: "#ff0000", // Change to your desired red
+          "primary-focus": "#cc0000", // Hover color
+          "primary-content": "#ffffff", // Text color
+        }
+      }
+    ]
   },
 
 }

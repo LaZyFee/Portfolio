@@ -1,4 +1,3 @@
-// FullStackProjects.js
 import React from 'react';
 import projectsData from '../../Data/FullstackProjects.json';
 import Tab from '../../Components/Tab';

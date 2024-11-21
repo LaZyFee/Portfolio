@@ -21,7 +21,7 @@ const Tech = () => {
     return (
         <div className='text-white lg:mx-5 lg:mb-10'>
             <h1 className='text-3xl p-4 lg:mb-5'>TECHNOLOGIES</h1>
-            <div className="grid grid-cols-3 lg:grid-cols-11 lg:gap-2">
+            <div className="grid grid-cols-5 lg:grid-cols-11 lg:gap-2">
                 {
                     skills.map((skill, index) => (
                         <motion.div
