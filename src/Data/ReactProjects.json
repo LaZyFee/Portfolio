@@ -6,7 +6,7 @@
     "image": "../Asset/Projects/portfolio.jpg",
     "source": "",
     "live": "https://rabiul-rafee-portfolio.netlify.app/",
-    "library": ["React", "Tailwind", "swiper"]
+    "library": ["React", "Tailwind", "swiper", "framer-motion", "react-icons"]
   },
   {
     "id": 2,

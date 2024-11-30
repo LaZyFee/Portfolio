@@ -4,8 +4,8 @@
     "name": "Jerin's Parlour",
     "description": "A full-featured parlour management app built using the MERN stack, enabling customers to book, pay, and review services, with an admin portal for service management. Leveraged React and Vite on the frontend and Node.js, Express, MongoDB, Passport.js, and Multer for a secure, flexible backend, including email/password and Google OAuth2 authentication. Integrated Stripe and PayPal for payment processing, ensuring a seamless and secure user experience.",
     "image": "../Asset/Projects/jerins-parlour.png",
-    "source": "https://github.com/LaZyFee/jerins-parlor-client",
-    "live": "https://jerins-parlour-webappx.netlify.app/",
+    "source": "https://github.com/LaZyFee/jerins-Parlour-Server",
+    "live": "https://jerins-parlour-server-iota.vercel.app/",
     "library": [
       "React",
       "Tailwind",
