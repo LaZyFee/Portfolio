@@ -66,6 +66,23 @@
   },
   {
     "id": 5,
+    "name": "Internship Task",
+    "description": "This is a web application built with React and Vite, featuring state management with Zustand, Tailwind CSS for styling, and DaisyUI for rapid UI development. It includes Stripe for secure payment processing, MongoDB Atlas for cloud data storage, and Nodemailer for email services. Admin features include protected routes to manage orders, customize or delete product plans, and more.",
+    "image": "Asset/Projects/internship-task.png",
+    "source": "https://github.com/LaZyFee/Internship-Task",
+    "live": "https://internship-task-hr.netlify.app",
+    "library": [
+      "React",
+      "Tailwind",
+      "Express",
+      "Zustand",
+      "MongoDB",
+      "Stripe",
+      "Nodemailer"
+    ]
+  },
+  {
+    "id": 5,
     "name": "Ema Jhon",
     "description": "Ema Jhon is a simple eCommerce demo application built using React, Firebase, Express, and MongoDB. This application provides a basic online shopping experience with product listings, order review, cart management, and a seamless authentication flow.",
     "image": "Asset/projects/ema jhon.jpg",
