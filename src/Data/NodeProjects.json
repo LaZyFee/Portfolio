@@ -1,6 +1,24 @@
 [
   {
     "id": 1,
+    "name": "Complete-Ecommerce",
+    "description": "This is a trial project for implementing user authentication in a Node.js application. The project uses PassportJS for authentication with both Local Strategy and Google OAuth 2.0 and is built with Node.js, Express, MongoDB, EJS, and bcrypt for secure password hashing.",
+    "image": "",
+    "source": "https://github.com/LaZyFee/Complete-Ecommerce/",
+    "live": "https://www.postman.com/security-architect-22950921/complete-ecommerce/collection/8o3ilh1/ecommerce?action=share&creator=37344295",
+    "library": [
+      "NodeJS",
+      "Express",
+      "MongoDB",
+      "SSLCOMMERZ",
+      "mongoose",
+      "axios",
+      "form-data",
+      "jsonwebtoken"
+    ]
+  },
+  {
+    "id": 1,
     "name": "Auth_using_PassportJS",
     "description": "This is a trial project for implementing user authentication in a Node.js application. The project uses PassportJS for authentication with both Local Strategy and Google OAuth 2.0 and is built with Node.js, Express, MongoDB, EJS, and bcrypt for secure password hashing.",
     "image": "../Asset/Projects/PassportJS.png",
