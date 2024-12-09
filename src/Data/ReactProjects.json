@@ -48,6 +48,21 @@
 
   {
     "id": 6,
+    "name": "Brainwave-Web",
+    "description": "Brainwave - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general.\n\n👉 Beautiful Sections: Includes hero, services, features, how to use, roadmap, pricing, footer, and header.\n\n👉 Parallax Animations: Engaging effects triggered by mouse movement and scrolling.\n\n👉 Complex UI Geometry: Utilizes tailwindcss for intricate shapes like circular feature displays, grid lines, and side lines.\n\n👉 Latest UI Trends: Incorporates modern design elements such as bento grids.\n\n👉 Cool Gradients: Enhances visuals with stylish gradients using Tailwind CSS for cards, buttons, etc.\n\n👉 Responsive: Ensures seamless functionality and aesthetics across all devices\n\nand many more, including code architecture and reusability",
+    "image": "../Asset/Projects/brainwave.png",
+    "source": "https://github.com/LaZyFee/brainwave_react",
+    "live": "https://xbrainwave.netlify.app/",
+    "library": [
+      "React",
+      "Tailwind",
+      "scroll-lock",
+      "react-just-parallax",
+      "react-router-dom"
+    ]
+  },
+  {
+    "id": 6,
     "name": "Space-Web",
     "description": "",
     "image": "../Asset/Projects/spacewebxnetlifyapp_.jpg",
