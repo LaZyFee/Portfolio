@@ -38,6 +38,16 @@
 
   {
     "id": 6,
+    "name": "iPhone 15 Pro Web Clone",
+    "description": "This is a clone of Apple's iPhone 15 Pro website using React.js and TailwindCSS. It highlights the effective use of GSAP (Greensock Animations) and Three.js for displaying iPhone 15 Pro models in various colors and shapes.\n\n👉 Beautiful Subtle Smooth Animations using GSAP: Enhanced user experience with seamless and captivating animations powered by GSAP.\n\n👉 3D Model Rendering with Different Colors and Sizes: Explore the iPhone 15 Pro from every angle with dynamic 3D rendering, offering various color and size options.\n\n👉 Custom Video Carousel (made with GSAP): Engage users with a unique and interactive video carousel developed using GSAP for a personalized browsing experience.\n\n👉 Completely Responsive: Consistent access and optimal viewing on any device with a fully responsive design that adapts to different screen sizes.\n\nAnd many more features, including thoughtful code architecture and reusability.",
+    "image": "../Asset/Projects/iphone15proclone.png",
+    "source": "https://github.com/LaZyFee/iPhone-web-clone",
+    "live": "https://xiphone15proclonex.netlify.app/",
+    "library": ["React", "Tailwind", "GSAP", "Three.js"]
+  },
+
+  {
+    "id": 6,
     "name": "Space-Web",
     "description": "",
     "image": "../Asset/Projects/spacewebxnetlifyapp_.jpg",
