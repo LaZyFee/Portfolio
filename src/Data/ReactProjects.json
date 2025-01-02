@@ -233,14 +233,5 @@
     "source": "https://github.com/LaZyFee/Nike-Hero-React",
     "live": "https://xnikeherox.netlify.app",
     "library": ["React", "Tailwind", "framer-motion"]
-  },
-  {
-    "id": 5,
-    "name": "Quiz-App",
-    "description": "",
-    "image": "",
-    "source": "",
-    "live": "",
-    "library": []
   }
 ]

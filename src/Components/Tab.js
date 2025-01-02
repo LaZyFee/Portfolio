@@ -3,7 +3,7 @@ import React from "react";
 
 function Tab() {
     const menuItems = [
-        { name: "Full Stack", path: "/projects" },
+        { name: "MERN", path: "/projects" },
         { name: "React", path: "/projects/react" },
         { name: "Node", path: "/projects/node" },
         { name: "JS & DOM", path: "/projects/js-dom" },
