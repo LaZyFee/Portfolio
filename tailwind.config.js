@@ -16,7 +16,7 @@ module.exports = {
     themes: ["synthwave",
       {
         mytheme: {
-          primary: "#ff0000", // Change to your desired red
+          primary: "#ff0000",
           "primary-focus": "#cc0000", // Hover color
           "primary-content": "#ffffff", // Text color
         }
