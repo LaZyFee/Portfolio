@@ -1,5 +1,5 @@
 import React from 'react';
-import histories from '../../Data/History.json';
+import histories from '../../../Data/History.json';
 const Experience = () => {
     return (
         <div className='text-white lg:mx-5 my-10'>

@@ -3,14 +3,18 @@ import { Link } from 'react-router-dom';
 
 const ProjectCard = ({ project }) => {
     return (
-        <div className="card w-full bg-base-100 shadow-2xl rounded-lg transition-transform transform hover:scale-105">
-            <figure className='h-48'>
+        <div
+            className="p-6 rounded-lg transition-transform duration-300 hover:shadow-xl hover:-translate-y-2"
+        >
+            <div className="overflow-hidden rounded-lg">
                 <img
                     src={project.image} alt={`imageOf${project.name}`}
-                    className="w-full h-full object-cover"
+                    loading="lazy"
+                    className="h-[250px] w-full object-cover"
                 />
-            </figure>
-            <div className="card-body p-4">
+            </div>
+
+            <div className="card-body p-4 bg-base-200 rounded-lg">
                 <h2 className="card-title font-semibold text-primary text-lg">
                     {project.name}
                 </h2>

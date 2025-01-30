@@ -1,11 +1,31 @@
 [
   {
+    "id": 10,
+    "name": "Blog Web App",
+    "description": "The Blog Web App is a full-stack application designed for creating, managing, and sharing blog posts.It includes robust authentication features such as user signup, login, email verification, password reset, and token-based route protection. Users can upload images with Multer, manage content effortlessly, and enjoy a dynamic browsing experience powered by Swiper. The application ensures data security with JWT authentication and features a clean, responsive design for optimal user experience.",
+    "image": "Asset/Projects/",
+    "source": "https://github.com/LaZyFee/Blog_app",
+    "live": "",
+    "library": [
+      "React",
+      "NodeJS",
+      "Express",
+      "MongoDB",
+      "mongoose",
+      "Multer",
+      "JWT",
+      "Zustand",
+      "Swiper",
+      "Axios"
+    ]
+  },
+  {
     "id": 1,
     "name": "Jerin's Parlour",
     "description": "A full-featured parlour management app built using the MERN stack, enabling customers to book, pay, and review services, with an admin portal for service management. Leveraged React and Vite on the frontend and Node.js, Express, MongoDB, Passport.js, and Multer for a secure, flexible backend, including email/password and Google OAuth2 authentication. Integrated Stripe and PayPal for payment processing, ensuring a seamless and secure user experience.",
     "image": "../Asset/Projects/jerins-parlour.png",
     "source": "https://github.com/LaZyFee/jerins-Parlour-Server",
-    "live": "https://jerins-parlour-server-iota.vercel.app/",
+    "live": "https://jerins-parlour-webappx.netlify.app/",
     "library": [
       "React",
       "Tailwind",
@@ -36,6 +56,25 @@
       "firebase",
       "stripe",
       "NodeMailer"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "ChitChat",
+    "description": "ChitChat is a feature-rich real-time chat application developed using React, Express, MongoDB, and Zustand for seamless state management. It incorporates essential functionalities such as user authentication, email verification, password reset, and protected routes. Users can engage in one-on-one and group chats, share files, and enjoy dynamic visuals powered by Three.js and Vanta.js. Real-time communication is enabled through Socket.io, ensuring instant message delivery. The application showcases a responsive design and optimized performance, making it a versatile tool for modern communication.",
+    "image": "Asset/Projects/ChitChat.png",
+    "source": "https://github.com/LaZyFee/ChitChat-Client-side",
+    "live": "",
+    "library": [
+      "React",
+      "NodeJS",
+      "Express",
+      "MongoDB",
+      "Zustand",
+      "Three.js",
+      "Vanta.js",
+      "Socket.io",
+      "Axios"
     ]
   },
   {
@@ -116,44 +155,5 @@
     "source": "https://github.com/LaZyFee/auth_using_mern",
     "live": "",
     "library": ["React", "NodeJS", "Express", "Zustand", "Mailtrap"]
-  },
-  {
-    "id": 9,
-    "name": "ChitChat",
-    "description": "ChitChat is a feature-rich real-time chat application developed using React, Express, MongoDB, and Zustand for seamless state management. It incorporates essential functionalities such as user authentication, email verification, password reset, and protected routes. Users can engage in one-on-one and group chats, share files, and enjoy dynamic visuals powered by Three.js and Vanta.js. Real-time communication is enabled through Socket.io, ensuring instant message delivery. The application showcases a responsive design and optimized performance, making it a versatile tool for modern communication.",
-    "image": "Asset/Projects/ChitChat.png",
-    "source": "https://github.com/LaZyFee/ChitChat-Client-side",
-    "live": "",
-    "library": [
-      "React",
-      "NodeJS",
-      "Express",
-      "MongoDB",
-      "Zustand",
-      "Three.js",
-      "Vanta.js",
-      "Socket.io",
-      "Axios"
-    ]
-  },
-  {
-    "id": 10,
-    "name": "Blog Web App",
-    "description": "The Blog Web App is a full-stack application designed for creating, managing, and sharing blog posts.It includes robust authentication features such as user signup, login, email verification, password reset, and token-based route protection. Users can upload images with Multer, manage content effortlessly, and enjoy a dynamic browsing experience powered by Swiper. The application ensures data security with JWT authentication and features a clean, responsive design for optimal user experience.",
-    "image": "Asset/Projects/",
-    "source": "https://github.com/LaZyFee/Blog_app",
-    "live": "",
-    "library": [
-      "React",
-      "NodeJS",
-      "Express",
-      "MongoDB",
-      "mongoose",
-      "Multer",
-      "JWT",
-      "Zustand",
-      "Swiper",
-      "Axios"
-    ]
   }
 ]

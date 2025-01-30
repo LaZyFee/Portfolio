@@ -5,8 +5,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
-import projectsData from "../../Data/FullstackProjects.json";
-import ProjectCard from "../../Components/ProjectCard";
+import projectsData from "../../../Data/FullstackProjects.json";
+import ProjectCard from "../../../Components/ProjectCard";
 import { Link } from "react-router-dom";
 
 function Projects() {

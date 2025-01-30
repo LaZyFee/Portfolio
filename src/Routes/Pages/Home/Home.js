@@ -2,9 +2,9 @@ import React from 'react';
 import Hero from '../Hero/Hero';
 import About from '../About/About';
 import Experience from '../Experience/Experience';
-import Tech from '../Technologies/Tech';
 import Contact from '../Contact/Contact';
 import Projects from '../ProjectsCard/Projects';
+import Index from '../../../Components/AnimatedBeam/Beam';
 
 const Home = () => {
     return (
@@ -12,7 +12,7 @@ const Home = () => {
             <Hero />
             <About />
             <Experience />
-            <Tech />
+            <Index />
             <Projects />
             <Contact />
 

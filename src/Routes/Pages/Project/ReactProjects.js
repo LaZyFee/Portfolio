@@ -1,7 +1,7 @@
 import React from 'react';
-import projectsData from '../../Data/ReactProjects.json';
-import Tab from '../../Components/Tab';
-import ProjectCard from '../../Components/ProjectCard';
+import projectsData from '../../../Data/ReactProjects.json';
+import Tab from '../../../Components/Tab';
+import ProjectCard from '../../../Components/ProjectCard';
 const ReactProjects = () => {
 
     return (

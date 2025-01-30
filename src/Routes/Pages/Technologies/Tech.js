@@ -1,5 +1,5 @@
 import React from 'react';
-import { skills } from '../../Data/skill';
+import { skills } from '../../../Data/skill';
 import { motion } from 'framer-motion';
 
 const waveAnimation = (duration, delay = 0) => ({

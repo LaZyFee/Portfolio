@@ -1,8 +1,9 @@
 import React from 'react';
-import Tab from '../../Components/Tab';
-import projectsData from '../../Data/NodeProjects.json';
-import ProjectCard from '../../Components/ProjectCard';
-const NodeProjects = () => {
+import Tab from '../../../Components/Tab';
+import projectsData from '../../../Data/JsDomProjects.json';
+import ProjectCard from '../../../Components/ProjectCard';
+
+const JsDOM = () => {
     return (
         <>
             <Tab />
@@ -15,4 +16,4 @@ const NodeProjects = () => {
     );
 };
 
-export default NodeProjects;
+export default JsDOM;

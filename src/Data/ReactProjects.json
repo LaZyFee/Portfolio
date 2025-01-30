@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Portfolio",
-    "description": "Showcasing a collection of my web development projects, this portfolio highlights my skills in front-end technologies such as React and Tailwind CSS. It features responsive design, intuitive navigation, and interactive elements that demonstrate my ability to create user-friendly applications. Each project includes detailed information about the technologies used and links to live demos and source code. This portfolio not only reflects my journey as a developer but also serves as a testament to my commitment to continuous learning and improvement in web development.",
+    "description": "A showcase of my web development projects, highlighting skills in React and Tailwind CSS with interactive elements and live demos.",
     "image": "../Asset/Projects/portfolio.jpg",
     "source": "",
     "live": "https://rabiul-rafee-portfolio.netlify.app/",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "Travello",
-    "description": "Travello is a travel booking application built with React, Tailwind CSS, and DaisyUI. This application allows users to explore available tourist spots, view detailed pricing and facility information, and book plans directly. Key features include smooth navigation, form handling, and instant notifications for booking confirmations, creating an engaging and user-friendly experience.",
+    "description": "A travel booking app with smooth navigation, real-time pricing, and booking confirmation notifications.",
     "image": "../Asset/Projects/travello.jpg",
     "source": "https://github.com/LaZyFee/Travello",
     "live": "https://65ec99d09ed3fbc7315c8780--travellodemo.netlify.app/",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "name": "Lazy's Bar and Restaurant",
-    "description": "it's a dynamic Meal & Drinks Menu App using React, featuring real-time API data integration from TheMealDB and TheCocktailDB. Implemented user authentication with Firebase, including email-password and Google Sign-In options. The app allows users to search meals and drinks by category, view detailed preparation steps through modals, and watch recipe videos embedded from YouTube for an interactive experience. Designed a modern and responsive UI with Tailwind CSS and DaisyUI, ensuring a smooth user experience.",
+    "description": "A menu app with real-time meal and drink data, authentication, search, and video recipe integration",
     "image": "../Asset/Projects/lazybarandrestu.jpg",
     "source": "https://github.com/LaZyFee/Lazy-s-Bar",
     "live": "https://lazybarandrestu.netlify.app/",
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "name": "LazyKitchen",
-    "description": "it's a dynamic Meal App using React, featuring real-time API data integration from TheMealDB  The app allows users to search meals by category, view detailed preparation steps through modals. Designed a modern and responsive UI with Tailwind CSS and DaisyUI, ensuring a smooth user experience.",
+    "description": " A meal search app with category-based search, detailed preparation steps, and a modern UI.",
     "image": "../Asset/Projects/lazykitchen.jpg",
     "source": "https://github.com/LaZyFee/LazyKitchen_React",
     "live": "",
@@ -39,7 +39,7 @@
   {
     "id": 6,
     "name": "iPhone 15 Pro Web Clone",
-    "description": "This is a clone of Apple's iPhone 15 Pro website using React.js and TailwindCSS. It highlights the effective use of GSAP (Greensock Animations) and Three.js for displaying iPhone 15 Pro models in various colors and shapes.\n\n👉 Beautiful Subtle Smooth Animations using GSAP: Enhanced user experience with seamless and captivating animations powered by GSAP.\n\n👉 3D Model Rendering with Different Colors and Sizes: Explore the iPhone 15 Pro from every angle with dynamic 3D rendering, offering various color and size options.\n\n👉 Custom Video Carousel (made with GSAP): Engage users with a unique and interactive video carousel developed using GSAP for a personalized browsing experience.\n\n👉 Completely Responsive: Consistent access and optimal viewing on any device with a fully responsive design that adapts to different screen sizes.\n\nAnd many more features, including thoughtful code architecture and reusability.",
+    "description": "A replica of Apple's iPhone 15 Pro website with GSAP animations, 3D rendering, and a custom video carousel.",
     "image": "../Asset/Projects/iphone15proclone.png",
     "source": "https://github.com/LaZyFee/iPhone-web-clone",
     "live": "https://xiphone15proclonex.netlify.app/",
@@ -49,7 +49,7 @@
   {
     "id": 6,
     "name": "Brainwave-Web",
-    "description": "Brainwave - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general.\n\n👉 Beautiful Sections: Includes hero, services, features, how to use, roadmap, pricing, footer, and header.\n\n👉 Parallax Animations: Engaging effects triggered by mouse movement and scrolling.\n\n👉 Complex UI Geometry: Utilizes tailwindcss for intricate shapes like circular feature displays, grid lines, and side lines.\n\n👉 Latest UI Trends: Incorporates modern design elements such as bento grids.\n\n👉 Cool Gradients: Enhances visuals with stylish gradients using Tailwind CSS for cards, buttons, etc.\n\n👉 Responsive: Ensures seamless functionality and aesthetics across all devices\n\nand many more, including code architecture and reusability",
+    "description": " A modern UI/UX website featuring parallax effects, smooth animations, bento grids, and a responsive layout",
     "image": "../Asset/Projects/brainwave.png",
     "source": "https://github.com/LaZyFee/brainwave_react",
     "live": "https://xbrainwave.netlify.app/",
@@ -62,18 +62,18 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Space-Web",
-    "description": "",
+    "description": "A futuristic space-themed website featuring smooth animations, modern UI components, and interactive scrolling effects for an immersive experience.",
     "image": "../Asset/Projects/spacewebxnetlifyapp_.jpg",
     "source": "https://github.com/LaZyFee/Space-Web-React",
     "live": "https://spacewebx.netlify.app/",
     "library": ["React", "Tailwind", "Aos"]
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Tour-Travel",
-    "description": "",
+    "description": "A sleek and interactive travel booking website that allows users to explore destinations, book tours, and view travel packages with an engaging UI.",
     "image": "../Asset/Projects/tour-travelxnetlifyapp_.jpg",
     "source": "https://github.com/LaZyFee/Tour-Travel-React",
     "live": "https://tour-travelx.netlify.app/",
@@ -88,18 +88,18 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Dice-Game",
-    "description": "",
+    "description": "A simple and fun dice game built with React, featuring smooth animations and an interactive interface.",
     "image": "../Asset/Projects/dice-gamexnetlifyapp_.jpg",
     "source": "https://github.com/LaZyFee/Dice-Game-React",
     "live": "https://dice-gamex.netlify.app/",
     "library": ["React", "Tailwind", "styled-components"]
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "Coz-Web",
-    "description": "",
+    "description": "A modern and creative landing page featuring smooth animations, engaging UI elements, and a responsive layout.",
     "image": "../Asset/Projects/cozwebxnetlifyapp_.jpg",
     "source": "https://github.com/LaZyFee/CozWeb-React",
     "live": "https://cozwebx.netlify.app/",
@@ -114,27 +114,27 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "Food-Eat",
-    "description": "",
+    "description": "A stylish food ordering website featuring a modern UI, easy navigation, and a seamless user experience.",
     "image": "../Asset/Projects/foodeatxnetlifyapp_.jpg",
     "source": "https://github.com/LaZyFee/FoodEat-React",
     "live": "https://foodeatx.netlify.app/",
     "library": ["React", "Tailwind", "Aos"]
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "Car-Rent",
-    "description": "",
+    "description": "A user-friendly car rental website allowing customers to browse cars, compare prices, and book rentals efficiently.",
     "image": "../Asset/Projects/carxrentnetlifyapp_.jpg",
     "source": "https://github.com/LaZyFee/Car-Rent-React",
     "live": "https://carxrent.netlify.app/",
     "library": ["React", "Tailwind", "Aos", "react-icons"]
   },
   {
-    "id": 12,
+    "id": 13,
     "name": "Foodie",
-    "description": "",
+    "description": "A feature-rich food delivery web app with animated elements, interactive UI, and smooth user navigation.",
     "image": "../Asset/Projects/foodie-webxnetlifyapp_.jpg",
     "source": "https://github.com/LaZyFee/Foodie-React",
     "live": "https://foodie-webx.netlify.app/",
@@ -149,9 +149,9 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "name": "Coffee-Cafe",
-    "description": "",
+    "description": "A beautifully designed coffee shop website featuring a stylish UI, engaging visuals, and interactive sections.",
     "image": "../Asset/Projects/cooffexcafenetlifyapp_.jpg",
     "source": "https://github.com/LaZyFee/Coffee-Cafe-React",
     "live": "https://cooffexcafe.netlify.app/",
@@ -166,28 +166,27 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "name": "PlusDemic",
-    "description": "",
+    "description": "A business-oriented website with a clean and professional UI, featuring animations, call-to-action buttons, and smooth scrolling effects.",
     "image": "../Asset/Projects/plusdemicxnetlifyapp_.jpg",
     "source": "https://github.com/LaZyFee/plusDemic-React",
     "live": "https://plusdemicx.netlify.app/",
     "library": ["React", "Tailwind", "framer-motion", "react-icons"]
   },
   {
-    "id": 15,
+    "id": 16,
     "name": "PopUp-Auth",
-    "description": "",
+    "description": "A simple yet effective authentication modal popup for React applications, integrating social login options.",
     "image": "../Asset/Projects/popupauthnetlifyapp_.jpg",
     "source": "https://github.com/LaZyFee/popupAuth-React",
     "live": "https://popupauth.netlify.app/",
     "library": ["React", "Tailwind", "react-icons"]
   },
-
   {
-    "id": "16",
-    "name": "Fanta  Hero",
-    "description": "",
+    "id": 17,
+    "name": "Fanta Hero",
+    "description": "A vibrant and animated landing page for Fanta featuring dynamic UI elements, engaging motion effects, and smooth transitions.",
     "image": "../Asset/Projects/fantastore.jpg",
     "source": "https://github.com/LaZyFee/Fanta-Hero-React",
     "live": "https://fantahero.netlify.app",
@@ -200,9 +199,9 @@
     ]
   },
   {
-    "id": "17",
-    "name": "watch Store Hero",
-    "description": "",
+    "id": 18,
+    "name": "Watch Store Hero",
+    "description": "A visually appealing hero section for a watch store website with smooth animations, stylish UI, and a premium look.",
     "image": "../Asset/Projects/watchstore.jpg",
     "source": "https://github.com/LaZyFee/Watch-Store-React",
     "live": "https://watchstorehero.netlify.app",
@@ -217,18 +216,9 @@
     ]
   },
   {
-    "id": "18",
-    "name": "Strawberry Hero",
-    "description": "It's a begginer demo project of creating a hero section using React & tailwind css",
-    "image": "../Asset/Projects/berries.jpg",
-    "source": "https://github.com/LaZyFee/Strawberry-Hero",
-    "live": "https://berrieshero.netlify.app",
-    "library": ["React", "Tailwind", "Aos"]
-  },
-  {
-    "id": "19",
+    "id": 19,
     "name": "Nike Hero",
-    "description": "A react hero section using Tailwind CSS",
+    "description": "A sleek and modern hero section for a Nike product landing page, featuring smooth animations and a stylish design.",
     "image": "../Asset/Projects/nikestore.jpg",
     "source": "https://github.com/LaZyFee/Nike-Hero-React",
     "live": "https://xnikeherox.netlify.app",

@@ -1,11 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layouts/Main";
-import Project from "../Pages/Project/Project";
-import Home from "../Pages/Home/Home";
-import ReactProjects from "../Pages/Project/ReactProjects";
-import FullStackProjects from "../Pages/Project/FullStackProjects";
-import NodeProjects from "../Pages/Project/NodeProjects";
-import JsDOM from "../Pages/Project/JsDom";
+import ReactProjects from "./Pages/Project/ReactProjects";
+import FullStackProjects from "./Pages/Project/FullStackProjects";
+import NodeProjects from "./Pages/Project/NodeProjects";
+import JsDOM from "./Pages/Project/JsDom";
+import Project from "./Pages/Project/Project";
+import Home from "./Pages/Home/Home";
 
 export const router = createBrowserRouter([
     {
