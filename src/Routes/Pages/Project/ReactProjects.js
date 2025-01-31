@@ -1,7 +1,7 @@
 import React from 'react';
 import projectsData from '../../../Data/ReactProjects.json';
 import Tab from '../../../Components/Tab';
-import ProjectCard from '../../../Components/ProjectCard';
+import HoverCard from '../../../Components/Cards/HoverCard';
 const ReactProjects = () => {
 
     return (
@@ -9,7 +9,7 @@ const ReactProjects = () => {
             <Tab />
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 lg:mx-5 lg:my-12'>
                 {projectsData.map((project, index) => (
-                    <ProjectCard key={index} project={project} />
+                    <HoverCard key={index} project={project} />
                 ))}
             </div>
         </>

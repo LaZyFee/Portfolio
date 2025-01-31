@@ -3,9 +3,10 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import ButtonRotatingBackgroundGradient from '../../../Components/Button/ButtonRotatingBackgroundGradient';
+import ImageMask from '../../../Components/Mask/ImageMask';
 
 const Hero = () => {
+    const imageSrc = "Asset/myImage.jpg";
     return (
         <div className=' text-white min-h-screen flex items-center justify-center'>
             <div className="hero-content flex-col lg:flex-row-reverse items-center justify-center p-8 lg:p-16 rounded-lg shadow-2xl bg-opacity-75 backdrop-blur-lg border relative overflow-hidden w-full mx-auto [background:linear-gradient(45deg,#080b11,theme(colors.slate.800)_50%,#172033)_padding-box,conic-gradient(from_var(--border-angle),theme(colors.slate.600/.48)_80%,_theme(colors.indigo.500)_86%,_theme(colors.indigo.300)_90%,_theme(colors.indigo.500)_94%,_theme(colors.slate.600/.48))_border-box]  border-transparent animate-border">
@@ -13,16 +14,13 @@ const Hero = () => {
                 <div className="absolute inset-0 bg-gradient-to-r from-black via-purple-800 to-custom-radial opacity-20 blur-3xl animate-pulse"></div>
 
                 <motion.div
-                    className="relative"
+                    className="relative lg:w-1/2"
                     initial={{ x: 100, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, type: "spring", stiffness: 100 }}
                 >
-                    <img
-                        src="Asset/myImage.jpg"
-                        className="lg:max-w-sm rounded-lg  shadow-xl hover:scale-105 transition-transform duration-300 shadow-pink-900/50"
-                        alt="Rabiul Hasan Rafee"
-                    />
+                    {/* Use ImageMask with imageSrc prop */}
+                    <ImageMask imageSrc={imageSrc} />
                 </motion.div>
 
                 <div className="lg:w-2/3 mx-auto text-center lg:text-left">
@@ -42,24 +40,10 @@ const Hero = () => {
                             applications.
                         </span>
                         <br />
-                        <span>
-                            Proficient in{" "}
-                            <strong className="text-green-600">
-                                MongoDB, Express, React,
-                            </strong>{" "}
-                            and <strong className="text-green-600">Node.js</strong>, I create
-                            seamless user interfaces, manage complex state effectively, and
-                            ensure high-performing backend systems.
-                        </span>
+                        I create
+                        seamless user interfaces, manage complex state effectively, and
+                        ensure high-performing backend systems.
                         <br />
-                        <span>
-                            I’m highly skilled in frontend development, using advanced state
-                            management tools like{" "}
-                            <strong className="text-purple-600">Redux</strong>,{" "}
-                            <strong className="text-purple-600">Zustand</strong>, and{" "}
-                            <strong className="text-purple-600">Context API</strong> to
-                            maintain smooth and efficient user experiences.
-                        </span>
                         <br />
                         <span>
                             <strong>Let’s connect!</strong> Reach out if you’d like to discuss
@@ -67,7 +51,7 @@ const Hero = () => {
                             technologies and best practices.
                         </span>
                     </p>
-                    <div className='flex gap-6 items-center mb-8 justify-center'>
+                    <div className='flex gap-6 items-center mb-8 justify-center relative'>
                         <motion.div
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
@@ -107,13 +91,18 @@ const Hero = () => {
                             boxShadow: "0px 4px 20px rgba(230, 57, 70, 0.5)",
                         }}
                         whileTap={{ scale: 0.95 }}
-                    >
-                        <a href="#contact">
-                            <ButtonRotatingBackgroundGradient>
-                                Contact Me
-                            </ButtonRotatingBackgroundGradient>
-                        </a>
-                    </motion.div>
+                    > </motion.div>
+                    <a href="#contact">
+                        <button className="group relative">
+                            <div
+                                className="relative z-10 inline-flex h-12 items-center justify-center overflow-hidden rounded-full
+        bg-gradient-to-r dark:from-[#070e41] dark:to-[#263381] from-[#f6f7ff] to-[#f5f6ff] dark:border-[rgb(76_100_255)] border-2 border-[#263381] 
+         bg-transparent px-6 font-medium dark:text-white text-black  transition-all duration-300 group-hover:-translate-x-3 group-hover:-translate-y-3">
+                                Contact me
+                            </div>
+                            <div className="absolute inset-0 z-0 h-full w-full rounded-full transition-all duration-300 group-hover:-translate-x-3 group-hover:-translate-y-3  group-hover:[box-shadow:5px_5px_#394481,10px_10px_#5766be,15px_15px_#8898f3]"></div>
+                        </button>
+                    </a>
 
                 </div>
             </div>

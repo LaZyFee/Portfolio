@@ -3,19 +3,21 @@ import Hero from '../Hero/Hero';
 import About from '../About/About';
 import Experience from '../Experience/Experience';
 import Contact from '../Contact/Contact';
-import Projects from '../ProjectsCard/Projects';
-import Index from '../../../Components/AnimatedBeam/Beam';
+import Achivements from '../AchivementCard/Achivements';
+import Beam from '../../../Components/AnimatedBeam/Beam';
+import DemoProjects from '../DemoProject/DemoProjects';
 
 const Home = () => {
     return (
         <div>
             <Hero />
             <About />
+            <Beam />
             <Experience />
-            <Index />
-            <Projects />
-            <Contact />
 
+            <Achivements />
+            <DemoProjects />
+            <Contact />
         </div>
     );
 };

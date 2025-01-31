@@ -5,14 +5,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
-import projectsData from "../../../Data/FullstackProjects.json";
-import ProjectCard from "../../../Components/ProjectCard";
-import { Link } from "react-router-dom";
-
-function Projects() {
+import AchivementsData from "../../../Data/Achivements";
+import SpotlightCard from "../../../Components/Cards/SpotlightCard";
+function Achivements() {
   return (
     <div className="text-white lg:mx-5 lg:mb-10">
-      <h1 className="text-3xl p-4 lg:mb-5">PROJECTS</h1>
+      <h1 className="text-3xl p-4 lg:mb-5">Achivements & Learning </h1>
       <Swiper
         modules={[Autoplay]} // Add the Autoplay module here
         slidesPerView={3} // Default to 3 slides
@@ -28,23 +26,14 @@ function Projects() {
         }}
         className="mySwiper"
       >
-        {projectsData.map((project, index) => (
+        {AchivementsData.map((item, index) => (
           <SwiperSlide key={index}>
-            <ProjectCard project={project} />
+            <SpotlightCard achievement={item} />
           </SwiperSlide>
         ))}
       </Swiper>
-
-      {/* Centered Button */}
-      <div className="flex justify-center mt-5">
-        <Link to="/projects">
-          <button className="btn btn-primary text-2xl text-white rounded-md">
-            Show All
-          </button>
-        </Link>
-      </div>
     </div>
   );
 }
 
-export default Projects;
+export default Achivements;
