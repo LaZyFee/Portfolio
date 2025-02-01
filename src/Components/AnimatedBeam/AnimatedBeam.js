@@ -1,4 +1,4 @@
-'use client';
+/* eslint-disable no-unused-vars */
 import { cn } from '../../Utils/utils';
 import { motion } from 'framer-motion';
 import { forwardRef, useEffect, useId, useState } from 'react';

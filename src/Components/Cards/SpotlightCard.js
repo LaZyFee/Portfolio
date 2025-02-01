@@ -58,7 +58,7 @@ export default function SpotlightCard({ achievement }) {
                     }}
                 ></div>
 
-                <div className="relative text-center z-10 p-4 rounded-lg w-full bg-black h-full mx-auto">
+                <div className="relative text-center z-10 p-2 rounded-lg w-full bg-[#321484] h-full mx-auto">
                     <img
                         src={achievement.image}
                         alt="Achievement"
